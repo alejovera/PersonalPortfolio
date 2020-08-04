@@ -23,7 +23,7 @@ const AboutMe = () =>{
                     <div data-aos="slide-right" className="col-8 meInfo">
 
                         <p>
-                            ¡Hola! Yo soy Alejo y soy desarrollador Frontend. Tengo habilidades para HTML, CSS, y JS. Desarrollo mis interfaces utilizando la librería React y Redux para el manejo de información (en caso de que sea necesario). También se utilizar sistemas de control de versiones como Git, y usar GitHub para el trabajo en equipo. 
+                            Hola! Yo soy Alejo y soy desarrollador Frontend. Tengo habilidades para HTML, CSS, y JS. Desarrollo mis interfaces utilizando la librería React y Redux para el manejo de información (en caso de que sea necesario). También se utilizar sistemas de control de versiones como Git, y usar GitHub para el trabajo en equipo. 
                             <br />
                             A pesar de ser joven vengo programando desde que tengo 15 años, y tengo varios proyectos realizados, algunos de los cuales se encuentran en GitHub.
                             <br />
