@@ -1,0 +1,126 @@
+
+.header_container{
+    display: flex;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(../../images/background.png);
+    opacity: 1;
+    flex-wrap: wrap;
+    
+}
+.header_row{
+    width: 100%;
+    margin-top: 10%;
+}
+.box__title-animated{
+    border: 1px solid red;
+    display: flex;
+    height: 40vh;
+    width: 40%;
+    background-color: #ffc107;
+    position: absolute;
+    margin-left: 25%;
+    top: 20%;
+    z-index: 2;
+    animation: pulse;
+    animation-duration: 2s;
+    animation-delay: 0.6s;
+    animation-iteration-count: 1;
+}
+.box__title-nonanimated{
+    border: 1px solid red;
+    display: flex;
+    height: 40vh;
+    width: 40%;
+    background-color: #ffc107;
+    position: absolute;
+    margin-left: 25%;
+    top: 20%;
+    z-index: 1;
+}
+.box-1_title{
+    color:black;
+    font-family: 'Sen', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    padding-top: 0;
+    opacity: 1em;
+}
+.box__description-animated{
+    border: 1px solid yellow;
+    display: block;
+    padding-top: 0;
+    height: 40vh;
+    width: 40%;
+    background-color: black;
+    position: absolute;
+    margin-left: 28%;
+    top: 45%;
+    z-index: 2;   
+    animation: pulse;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+}
+.box__description-nonanimated{
+    border: 1px solid yellow;
+    display: block;
+    height: 40vh;
+    width: 40%;
+    background-color: black;
+    position: absolute;
+    margin-left: 28%;
+    top: 55%;
+    z-index: 1;
+}
+
+.box-2_description{
+    color: #ffc107;
+    font-family: 'Sen', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.arrowText-row{
+    width: 100%;
+    font-family: 'Sen', sans-serif;
+    height: 7vh;
+    justify-content: center;
+    margin-top: 20%;
+}
+.titleArrow-col{
+    background-color: #ffc107;
+    font-family: 'Sen', sans-serif;
+    justify-content: center;
+    width: 10%;
+    border-radius: 0.2em;
+}
+.arrowText-title{
+    font-weight: normal;
+    margin-top: 0.2em;
+}
+.arrow-row{
+    color: #ffc107;
+    position: absolute;
+    top: 87%;
+    margin-left: 45%; 
+    animation: pulse;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
