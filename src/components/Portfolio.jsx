@@ -14,20 +14,20 @@ const Portfolio = () => {
             <div className='row row__card'>    
                 <div className='col-4 column__card'>
                     <PortfolioItem
-                        title="Esta funcionando" 
-                        description="Este trabajo es lo mejor que vas a ver en tu vida para un chico de 18 perri"
+                        title="Este mismo Portafolio" 
+                        description="Creado con React JS y CSS, puedo mostrar todos mis trabajos realizados hasta la actualidad"
                     />
                 </div>
                 <div className='col-4'>
                     <PortfolioItem
-                        title="Hola"
-                        description="Este trabajo es lo mejor que vas a ver en tu vida para un chico de 18 perri"
+                        title="Clon de Amazon"
+                        description="Sitio que replica a Amazon. Puedes agregar al carrito items y mas. Utiliza React Context y Flexbox de CSS. Klkjfalkjdflk jl a kdfjalk jflsajd ljdlf jalj jk lsajdf lk"
                     />
                 </div>
                 <div className='col-4'>
                     <PortfolioItem 
                         title="Otro"
-                        description="Este trabajo es lo mejor que vas a ver en tu vida para un chico de 18 perri"
+                        description="Sitio que replica a Amazon. Puedes agregar al carrito items y mas"
                     />
                 </div>
 
