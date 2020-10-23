@@ -26,8 +26,8 @@ const Portfolio = () => {
                 </div>
                 <div className='col-4'>
                     <PortfolioItem 
-                        title="Otro"
-                        description="Sitio que replica a Amazon. Puedes agregar al carrito items y mas"
+                        title="Seguidor de COVID-19 Mundial"
+                        description="Sigue los casos de infectados, recuperados y fallecidos de COVID-19 a nivel Mundial"
                     />
                 </div>
 
@@ -35,20 +35,20 @@ const Portfolio = () => {
             <div className='row'>    
                 <div className='col-4'>
                     <PortfolioItem
-                        title="Esto es muy facil"
-                        description="Este trabajo es lo mejor que vas a ver en tu vida para un chico de 18 perri"
+                        title="La competencia de Netflix"
+                        description="Esta página te permite ver tus películas favoritas. Es el Frontend de un programa de Streaming de vídeo con diseño propio"
                     />
                 </div>
                 <div className='col-4'>
                     <PortfolioItem 
-                        title="Bella es la vida"
-                        description="Este trabajo es lo mejor que vas a ver en tu vida para un chico de 18 perri"
+                        title="NBA APP"
+                        description="Puedes ver las estadísticas de jugadores y equipos, y además puedes crear tu propio Dream Team "
                     />
                 </div>
                 <div className='col-4'>
                     <PortfolioItem 
-                        title="Asi es"
-                        description="Este trabajo es lo mejor que vas a ver en tu vida para un chico de 18 perri"
+                        title="Clon de TikTok"
+                        description="Clon de la versión web de TikTok. Puedes scrollear los vídeos, y darle pausa o seguir reproduciendo cada video. También puedes darle like"
                     />
                 </div>
 
