@@ -2,11 +2,18 @@
     width: 90%;
     background-color: black;
     border: 2px solid #ffc107;
+    height: 450px;
+    display: flex;
 }
 .card-hover{
     background-color: #ffc107;
     transition: all .2s ease-in-out;
     transform: scale(1.1,1.1);
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .card-body_normal{
     color: #ffc107;
@@ -24,6 +31,8 @@
 }
 .btn{
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+    width: 60%;
 }
 .btn-especial{
     background-color: black;
