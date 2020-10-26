@@ -24,13 +24,13 @@ const Contact = () => {
             <h3 className='contactTitle'>Contáctame</h3>
             <form className='needs-validation contact-form' noValidate>
                 <div className='form-row'>
-                    <div className='col-lg-6 mb-2 mr-2'>
+                    <div className='name-row mb-2'>
                         <input type="text" className="form-control" id="validationCustom01" placeholder='Nombre' required />
                         <div className="invalid-feedback">
                             Porfavor ingrese un nombre valido.
                         </div>
                     </div>
-                    <div className="col-lg-5 mb-2">
+                    <div className="email-row mb-2">
                         <input type="email" className="form-control needs-validation" id="validationCustom02" placeholder="email" required />
                             <div className="invalid-feedback">
                                 Porfavor ingrese un email valido.

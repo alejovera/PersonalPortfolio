@@ -31,8 +31,10 @@
 }
 .btn{
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 0;
+}
+#portfolio-btn{
     width: 60%;
+    margin-bottom: 0;
 }
 .btn-especial{
     background-color: black;

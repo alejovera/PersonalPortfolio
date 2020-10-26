@@ -16,6 +16,13 @@
 .form-text{
     width: 100%;
 }
+.name-row{
+    width: 49%;
+    margin-right: 0.8em;
+}
+.email-row{
+    width: 49%;
+}
 .button-row{
     display: flex;
     justify-content: center;
