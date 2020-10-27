@@ -12,10 +12,7 @@
 }
 .iconsMaterialUI{
     position: relative;
-    left: 44%;
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
+    left: 43.5%;
 }
 .iconParagraph{
     display: flex;
