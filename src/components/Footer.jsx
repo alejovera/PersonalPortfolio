@@ -19,16 +19,16 @@ const Footer = () => {
             <div className='row rowFooter'>
                 <div className='col-4' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
                     <div className="iconsCols">
-                        <PeopleIcon className="iconsMaterialUI" style={{ fontSize: 50 }} />
+                        <PeopleIcon className="iconsMaterialUIGroup" style={{ fontSize: 50 }} />
                         <p className='iconParagraph'>LinkedIn</p>
                     </div>
                 </div>
                 <div className='col-4 iconsCols' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-                        <MailIcon className="iconsMaterialUI" style={{ fontSize: 50 }} />
+                        <MailIcon className="iconsMaterialUIMail" style={{ fontSize: 50 }} />
                         <p className='iconParagraph'>Mail</p>
                 </div>
                 <div className='col-4 iconsCols' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-                    <AccountCircleIcon className="iconsMaterialUI" style={{ fontSize: 50 }} />
+                    <AccountCircleIcon className="iconsMaterialUICV" style={{ fontSize: 50 }} />
                     <p className='iconParagraph'>CV</p>
                 </div>                
             </div>

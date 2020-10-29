@@ -10,10 +10,19 @@
     height: 100%;
     width: 100%;
 }
-.iconsMaterialUI{
+.iconsMaterialUIGroup{
     position: relative;
-    left: 43.5%;
+    left: 44%;
 }
+.iconsMaterialUIMail{
+    position: relative;
+    left: 43.6%;
+}
+.iconsMaterialUICV{
+    position: relative;
+    left: 43.6%;
+}
+
 .iconParagraph{
     display: flex;
     justify-content: center;
