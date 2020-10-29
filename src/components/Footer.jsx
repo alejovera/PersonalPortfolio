@@ -17,11 +17,9 @@ const Footer = () => {
     return(
         <div className='container-fluid'>
             <div className='row rowFooter'>
-                <div className='col-4' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-                    <div className="iconsCols">
-                        <PeopleIcon className="iconsMaterialUIGroup" style={{ fontSize: 50 }} />
-                        <p className='iconParagraph'>LinkedIn</p>
-                    </div>
+                <div className='col-4 iconsCols' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+                    <PeopleIcon className={hover ? 'iconsMaterialUIGroup iconsMaterialUIGroup__hover' : 'iconsMaterialUIGroup iconsMaterialUIGroup__static'} style={{ fontSize: 50 }} />
+                    <p className={hover ? 'iconParagraph iconParagraph__hover' : 'iconParagraph iconParagraph__static'}>LinkedIn</p>
                 </div>
                 <div className='col-4 iconsCols' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
                         <MailIcon className="iconsMaterialUIMail" style={{ fontSize: 50 }} />

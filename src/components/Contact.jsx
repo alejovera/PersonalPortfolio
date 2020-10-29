@@ -38,7 +38,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className='form-row text-row'>
-                    <div className='col-12 form-text'>
+                    <div className='col-12 form-text pl-0'>
                         <textarea className="form-control needs-validation" id="validationTextarea" placeholder="Escriba su mensaje aqui" required></textarea>
                         <div className="invalid-feedback">
                             Porfavor escriba un mensaje valido.
