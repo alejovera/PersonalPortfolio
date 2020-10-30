@@ -9,21 +9,38 @@
     border-width: 0 0.5em 0 0;
     height: 100%;
     width: 100%;
+    position: relative;
+    left: 0;
+}
+.iconsCols__hover{
+    background-color: white;
 }
 .iconsMaterialUIGroup{
     position: relative;
     left: 44%;
 }
 .iconsMaterialUIGroup__hover{
-    color: blue;
+    color: black;
 }
 .iconsMaterialUIMail{
     position: relative;
     left: 43.6%;
 }
+.iconsMaterialUIMail__hover{
+    color: chocolate;
+}
+.iconsMaterialUIMail__static{
+    color: darkgreen;
+}
 .iconsMaterialUICV{
     position: relative;
     left: 43.6%;
+}
+.iconsMaterialUICV__hover{
+    color: darkseagreen;
+}
+.iconsMaterialUICV__static{
+    color: firebrick;
 }
 .iconParagraph{
     display: flex;
@@ -33,8 +50,8 @@
     margin-bottom: 0.6em;
 }
 .iconParagraph__hover{
-    color: wheat;
+    color: #ffc107;
 }
 .iconParagraph__static{
-    color: violet;
+    color: black;
 }

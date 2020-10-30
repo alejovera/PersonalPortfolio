@@ -5,29 +5,47 @@ import MailIcon from '@material-ui/icons/Mail';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
 const Footer = () => {
-    const [hover, setHover] = useState(false)
+    const [hover1, setHover1] = useState(false)
+    const [hover2, setHover2] = useState(false)
+    const [hover3, setHover3] = useState(false)
 
-    const handleMouseOver = () => {
-        setHover(true)
+    const handleMouseOver1 = () => {
+        setHover1(true)
     }
-    const handleMouseOut = () => {
-        setHover(false)
+    const handleMouseOut1 = () => {
+        setHover1(false)
     }
     
+    const handleMouseOver2 = () => {
+        setHover2(true)
+    }
+    const handleMouseOut2 = () => {
+        setHover2(false)
+    }
+
+    const handleMouseOver3 = () => {
+        setHover3(true)
+    }
+    const handleMouseOut3 = () => {
+        setHover3(false)
+    }
+
     return(
         <div className='container-fluid'>
             <div className='row rowFooter'>
-                <div className='col-4 iconsCols' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-                    <PeopleIcon className={hover ? 'iconsMaterialUIGroup iconsMaterialUIGroup__hover' : 'iconsMaterialUIGroup iconsMaterialUIGroup__static'} style={{ fontSize: 50 }} />
-                    <p className={hover ? 'iconParagraph iconParagraph__hover' : 'iconParagraph iconParagraph__static'}>LinkedIn</p>
+                <div className='col-4 px-0' onMouseOver={handleMouseOver1} onMouseOut={handleMouseOut1}>
+                    <div className={hover1 ? 'iconsCols iconsCols__hover' : 'iconsCols iconsCols__static'}>
+                        <PeopleIcon className={hover1 ? 'iconsMaterialUIGroup iconsMaterialUIGroup__hover' : 'iconsMaterialUIGroup iconsMaterialUIGroup__static'} style={{ fontSize: 50 }} />
+                        <p className={hover1 ? 'iconParagraph iconParagraph__hover' : 'iconParagraph iconParagraph__static'}>LinkedIn</p>
+                    </div>
                 </div>
-                <div className='col-4 iconsCols' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-                        <MailIcon className="iconsMaterialUIMail" style={{ fontSize: 50 }} />
-                        <p className='iconParagraph'>Mail</p>
+                <div className='col-4 px-0 iconsCols' onMouseOver={handleMouseOver2} onMouseOut={handleMouseOut2}>
+                        <MailIcon className={hover2 ? 'iconsMaterialUIMail iconsMaterialUIMail__hover' : 'iconsMaterialUIMail iconsMaterialUIMail__static'} style={{ fontSize: 50 }} />
+                        <p className={hover2 ? 'iconParagraph iconParagraph__hover' : 'iconParagraph iconParagraph__static'}>Mail</p>
                 </div>
-                <div className='col-4 iconsCols' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-                    <AccountCircleIcon className="iconsMaterialUICV" style={{ fontSize: 50 }} />
-                    <p className='iconParagraph'>CV</p>
+                <div className='col-4 px-0 iconsCols' onMouseOver={handleMouseOver3} onMouseOut={handleMouseOut3}>
+                    <AccountCircleIcon className={hover3 ? 'iconsMaterialUICV iconsMaterialUICV__hover' : 'iconsMaterialUICV iconsMaterialUICV__static'} style={{ fontSize: 50 }} />
+                    <p className={hover3 ? 'iconParagraph iconParagraph__hover' : 'iconParagraph iconParagraph__static'}>CV</p>
                 </div>                
             </div>
         </div>
