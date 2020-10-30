@@ -14,7 +14,7 @@
     margin-top: 10%;
 }
 .box__title-animated{
-    border: 1px solid red;
+    border: 1.5px solid black;
     display: flex;
     height: 40vh;
     width: 40%;
@@ -29,7 +29,7 @@
     animation-iteration-count: 1;
 }
 .box__title-nonanimated{
-    border: 1px solid red;
+    border: 1.5px solid black;
     display: flex;
     height: 40vh;
     width: 40%;
@@ -55,7 +55,7 @@
     opacity: 1em;
 }
 .box__description-animated{
-    border: 1px solid yellow;
+    border: 1.5px solid #ffc107;
     display: block;
     padding-top: 0;
     height: 40vh;
@@ -71,7 +71,7 @@
     animation-iteration-count: 1;
 }
 .box__description-nonanimated{
-    border: 1px solid yellow;
+    border: 1.5px solid #ffc107;
     display: block;
     height: 40vh;
     width: 40%;
