@@ -1,46 +1,50 @@
 .rowFooter{
-    background-color: #ffc107;
+    background-color: black;
     height: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 1em;
 }
 .iconsCols{
     border-style: solid;
-    border-width: 0 0.5em 0 0;
+    border-width: 0.2em;
+    border-color: #ffc107;
+    border-radius: 0.7em;
     height: 100%;
     width: 100%;
-    position: relative;
-    left: 0;
 }
 .iconsCols__hover{
-    background-color: white;
+    background-color: #ffc107;
+    transition: all .2s ease-in-out;
+    transform: scale(1.2,1.2);
 }
 .iconsMaterialUIGroup{
     position: relative;
     left: 44%;
+    color: #ffc107;
 }
 .iconsMaterialUIGroup__hover{
     color: black;
 }
 .iconsMaterialUIMail{
     position: relative;
-    left: 43.6%;
+    left: 42.3%;
 }
 .iconsMaterialUIMail__hover{
-    color: chocolate;
+    color: black;
 }
 .iconsMaterialUIMail__static{
-    color: darkgreen;
+    color: #ffc107;
 }
 .iconsMaterialUICV{
     position: relative;
-    left: 43.6%;
+    left: 42.4%;
 }
 .iconsMaterialUICV__hover{
-    color: darkseagreen;
+    color: black;
 }
 .iconsMaterialUICV__static{
-    color: firebrick;
+    color: #ffc107;
 }
 .iconParagraph{
     display: flex;
@@ -48,10 +52,11 @@
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 0.6em;
-}
-.iconParagraph__hover{
     color: #ffc107;
 }
-.iconParagraph__static{
+.iconParagraph__hover{
     color: black;
+}
+.iconParagraph__static{
+    color: #ffc107;
 }
