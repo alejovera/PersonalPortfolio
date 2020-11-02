@@ -34,11 +34,14 @@ const Footer = () => {
         <div className='container-fluid'>
             <div className='row rowFooter'>
                 <div className='col-3 px-0 mr-5 ml-5' onMouseOver={handleMouseOver1} onMouseOut={handleMouseOut1}>
-                    <div className={hover1 ? 'iconsCols iconsCols__hover' : 'iconsCols iconsCols__static'}>
-                        <PeopleIcon className={hover1 ? 'iconsMaterialUIGroup iconsMaterialUIGroup__hover' : 'iconsMaterialUIGroup iconsMaterialUIGroup__static'} style={{ fontSize: 50 }} />
-                        <p className={hover1 ? 'iconParagraph iconParagraph__hover' : 'iconParagraph iconParagraph__static'}>LinkedIn</p>
-                    </div>
+                    <a href="https://www.linkedin.com/in/alejo-vera/" className="footer__anchor">
+                        <div className={hover1 ? 'iconsCols iconsCols__hover' : 'iconsCols iconsCols__static'}>
+                            <PeopleIcon className={hover1 ? 'iconsMaterialUIGroup iconsMaterialUIGroup__hover' : 'iconsMaterialUIGroup iconsMaterialUIGroup__static'} style={{ fontSize: 50 }} />
+                            <p className={hover1 ? 'iconParagraph iconParagraph__hover' : 'iconParagraph iconParagraph__static'}>LinkedIn</p>
+                        </div>
+                    </a>
                 </div>
+
                 <div className='col-3 px-0 ml-5 mr-5' onMouseOver={handleMouseOver2} onMouseOut={handleMouseOut2}>
                     <div className={hover2 ? 'iconsCols iconsCols__hover' : 'iconsCols iconsCols__static'}>
                         <MailIcon className={hover2 ? 'iconsMaterialUIMail iconsMaterialUIMail__hover' : 'iconsMaterialUIMail iconsMaterialUIMail__static'} style={{ fontSize: 50 }} />
@@ -46,10 +49,12 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='col-3 px-0 ml-5 mr-5' onMouseOver={handleMouseOver3} onMouseOut={handleMouseOut3}>
-                    <div className={hover3 ? 'iconsCols iconsCols__hover' : 'iconsCols iconsCols__static'}>
-                        <AccountCircleIcon className={hover3 ? 'iconsMaterialUICV iconsMaterialUICV__hover' : 'iconsMaterialUICV iconsMaterialUICV__static'} style={{ fontSize: 50 }} />
-                        <p className={hover3 ? 'iconParagraph iconParagraph__hover' : 'iconParagraph iconParagraph__static'}>CV</p>
-                    </div>
+                    <a href="" download className="footer__anchor">
+                        <div className={hover3 ? 'iconsCols iconsCols__hover' : 'iconsCols iconsCols__static'}>
+                            <AccountCircleIcon className={hover3 ? 'iconsMaterialUICV iconsMaterialUICV__hover' : 'iconsMaterialUICV iconsMaterialUICV__static'} style={{ fontSize: 50 }} />
+                            <p className={hover3 ? 'iconParagraph iconParagraph__hover' : 'iconParagraph iconParagraph__static'}>CV</p>
+                        </div>
+                    </a>
                 </div>                
             </div>
         </div>

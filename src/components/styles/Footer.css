@@ -13,6 +13,17 @@
     height: 100%;
     width: 100%;
 }
+.footer__anchor{
+    list-style: none;
+    text-decoration: none;
+    color: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+a:hover{
+    text-decoration: none;
+}
 .iconsCols__hover{
     background-color: #ffc107;
     transition: all .2s ease-in-out;
