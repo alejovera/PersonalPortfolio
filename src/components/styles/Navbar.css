@@ -1,0 +1,46 @@
+/*  color amarillo: #ffc107 */
+.navbar-brand{
+  color: #ffc107;
+  margin-left: 0.5em;
+}
+.navbar-brand:hover{
+  font-weight: bold;
+  color: #ffc107;
+}
+.barra{
+  display: flex !important;
+  align-items: flex-end !important;
+  justify-content: flex-end !important;
+  align-content: flex-end !important;
+  align-self: flex-end !important;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.nav-link{
+  color: #ffc107;
+}
+.nav-link:hover{
+  color: #ffc107;
+  font-weight: 600;
+}
+/* .total-bar{
+  display: flex;
+  align-items: flex-end;
+}
+
+.my-navbar{
+  font-size: 1.1rem;
+}
+.navbar-name{
+  color: #ffc107;
+}
+
+.link-navbar{
+  padding-right: 1.1rem !important;
+  color: #ffc107;
+  text-decoration: none !important;
+}
+.link-navbar:hover{
+  font-weight: 700;
+  color: #ffc107;
+} */

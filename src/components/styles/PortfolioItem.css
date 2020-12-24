@@ -1,0 +1,52 @@
+.card{
+    width: 90%;
+    background-color: black;
+    border: 2px solid #ffc107;
+    height: 450px;
+    display: flex;
+}
+.card-hover{
+    background-color: #ffc107;
+    transition: all .2s ease-in-out;
+    transform: scale(1.1,1.1);
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-body_normal{
+    color: #ffc107;
+}
+.card-body_hover{
+    color: black;
+}
+.card-title{
+    font-family: 'Sen', sans-serif;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+.card-text{
+    font-family: 'Montserrat', sans-serif;
+}
+.btn{
+    font-family: 'Montserrat', sans-serif;
+}
+#portfolio-btn{
+    width: 60%;
+    margin-bottom: 0;
+}
+.btn-especial{
+    background-color: black;
+    color: #ffc107;
+}
+.btn-especial:hover{
+    color: #ffc107;
+    transition: all .2s ease-in-out;
+    transform: scale(1.1,1.1);
+}
+.img_top{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

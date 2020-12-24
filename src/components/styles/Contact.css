@@ -1,0 +1,34 @@
+.contactTitle{
+    font-family: 'Sen', sans-serif;
+    font-weight: bold;
+    color: #ffc107;
+    display: grid;
+    justify-content: center;
+    font-size: 2em;
+}
+.contact-form{
+    margin: 2em 10em;
+    font-family: 'Montserrat', sans-serif;
+}
+.text-row{
+    margin-top: 1em;
+}
+.form-text{
+    width: 100%;
+}
+.name-row{
+    width: 49%;
+    margin-right: 0.8em;
+}
+.email-row{
+    width: 49%;
+}
+.button-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-form{
+    margin-top: 1.5em;
+    margin-left: 1em;
+}
