@@ -3,16 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "@material-ui/core": "^4.11.2",
     "@material-ui/icons": "^4.9.1",
     "@material-ui/lab": "^4.0.0-alpha.57",
+=======
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+>>>>>>> c33bdb46013332adb54f26102111504977623ef3
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "animate.css": "^3.7.2",
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^4.4.1",
+<<<<<<< HEAD
     "firebase": "^8.2.1",
+=======
+>>>>>>> c33bdb46013332adb54f26102111504977623ef3
     "jquery": "^3.5.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",

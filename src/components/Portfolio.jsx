@@ -41,8 +41,13 @@ const Portfolio = () => {
                 </div>
                 <div className='col-4'>
                     <PortfolioItem 
+<<<<<<< HEAD
                         title="Organizacion de Eventos"
                         description="Puedes agregar invitados, eliminarlos, editarlos, y filtrar la busqueda para encontrar a los participantes que quieras"
+=======
+                        title="NBA APP"
+                        description="Puedes ver las estadísticas de jugadores y equipos, y además puedes crear tu propio Dream Team "
+>>>>>>> c33bdb46013332adb54f26102111504977623ef3
                     />
                 </div>
                 <div className='col-4'>
