@@ -39,10 +39,10 @@ const Portfolio = () => {
             <div className='row'>    
                 <div className='col-4'>
                     <PortfolioItem
-                        title="La competencia de Netflix"
-                        description="Esta página te permite ver tus películas favoritas. Es el Frontend de un programa de Streaming de vídeo con diseño propio"
+                        title="Clon de Tinder para mascotas"
+                        description="Este es un clon de la App Tinder pero aplicado para perros, y puedes swipear, entrar a la sección de chats y escribir."
                         showButton={true}
-                        url={'https://portafolio-5c5e8.web.app/'}
+                        url={'https://tinder-clone-for-pets.web.app/'}
                     />
                 </div>
                 <div className='col-4'>
