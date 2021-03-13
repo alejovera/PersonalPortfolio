@@ -47,10 +47,10 @@ const Portfolio = () => {
                 </div>
                 <div className='col-4'>
                     <PortfolioItem 
-                        title="Organizacion de Eventos"
-                        description="Puedes agregar invitados, eliminarlos, editarlos, y filtrar la busqueda para encontrar a los participantes que quieras"
+                        title="Streaming de Videos"
+                        description="Interfaz completa de Streming de Videos, en la que se incluyen todos los features necesarios. En esta aplicación se utilizó Redux."
                         showButton={true}
-                        url={'https://portafolio-5c5e8.web.app/'}
+                        url={'https://streming-videos0.web.app/'}
                     />
                 </div>
                 <div className='col-4'>
