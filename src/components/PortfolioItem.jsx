@@ -23,11 +23,7 @@ const PortfolioItem = (props) =>{
                 <div className={hover ? 'card-body card-body_hover' : 'card-body card-body_normal'}>
                     <h5 className="card-title">{props.title}</h5>
                     <p className="card-text">{props.description}</p>
-                    {props.showButton ? 
-                        <a href={props.url} id="portfolio-btn" className={hover ? 'btn btn-especial' : 'btn btn-warning'}>Ver página Web</a>
-                        : <p className='card-textWebPage'>Creada especialmente para este Portafolio</p>
-                    }
-                    {/* <a href={props.url} id="portfolio-btn" className={hover ? 'btn btn-especial' : 'btn btn-warning'}>Ver página Web</a> */}
+                    <a href="#" id="portfolio-btn" className={hover ? 'btn btn-especial' : 'btn btn-warning'}>Ver página Web</a>
                 </div>
             </div>
         </div>

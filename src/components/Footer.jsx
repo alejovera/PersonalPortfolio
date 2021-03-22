@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { Document } from 'react-pdf';
 import './styles/Footer.css';
 import PeopleIcon from '@material-ui/icons/People';
 import MailIcon from '@material-ui/icons/Mail';
