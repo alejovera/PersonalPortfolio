@@ -35,20 +35,20 @@ const Portfolio = () => {
             <div className='row'>    
                 <div className='col-4'>
                     <PortfolioItem
-                        title="La competencia de Netflix"
+                        title="Plataforma de Streaming"
                         description="Esta página te permite ver tus películas favoritas. Es el Frontend de un programa de Streaming de vídeo con diseño propio"
                     />
                 </div>
                 <div className='col-4'>
                     <PortfolioItem 
-                        title="Organizacion de Eventos"
-                        description="Puedes agregar invitados, eliminarlos, editarlos, y filtrar la busqueda para encontrar a los participantes que quieras"
+                        title="Facebook Clon"
+                        description="Imita la interfaz Frontend de Facebook. Puedes hacer posteos que quedan en una base de datos y tiene autenticacion de usuario"
                     />
                 </div>
                 <div className='col-4'>
                     <PortfolioItem 
-                        title="Clon de TikTok"
-                        description="Clon de la versión web de TikTok. Puedes scrollear los vídeos, y darle pausa o seguir reproduciendo cada video. También puedes darle like"
+                        title="Clon de Tinder de Mascotas"
+                        description="Imita la App de Tinder pero para mascotas. En la interfaz puedes deslizar, ir a la seccion de chats y entrar a cada chat privado."
                     />
                 </div>
 
