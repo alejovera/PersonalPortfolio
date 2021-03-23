@@ -1,6 +1,7 @@
-import firebase from 'firebase'
+import firebase from 'firebase';
+import 'firebase/storage';
 
-var firebaseApp = firebase.initializeApp ({
+export const firebaseApp = firebase.initializeApp ({
     apiKey: "AIzaSyBwJ-xCGQdSEWRFpsYm4j_GbG_-Y_IR9Q0",
     authDomain: "portafolio-5c5e8.firebaseapp.com",
     projectId: "portafolio-5c5e8",
@@ -10,7 +11,7 @@ var firebaseApp = firebase.initializeApp ({
     measurementId: "G-HN40QRN474"
   });
   // Initialize Firebase
-
+  var storageRef = firebaseApp.storage()
   var db = firebaseApp.firestore();
 
-  export { db };
+  export { db, storageRef };

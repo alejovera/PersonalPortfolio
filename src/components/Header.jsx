@@ -13,19 +13,15 @@ const Header= () => {
   const [className2, setClassName2 ] = useState('box__description-nonanimated');
 
 
-  console.log(className1);
-  console.log(className2);
  
   const handleAnimationEnd = e =>{
     e.preventDefault();
-    console.log('Llega a este punto');
     setClassName1('box__title-nonanimated');
     setClassName2('box__description-animated')
   }
 
   const handleAnimationEnd2 = e => {
     e.preventDefault();
-    console.log('LLega a punto 2');
     setClassName1('box__title-animated');
     setClassName2('box__description-nonanimated')
   }

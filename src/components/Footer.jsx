@@ -1,5 +1,6 @@
-import React, {useState} from 'react';
-import { Document } from 'react-pdf';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 import './styles/Footer.css';
 import PeopleIcon from '@material-ui/icons/People';
 import MailIcon from '@material-ui/icons/Mail';
@@ -50,12 +51,12 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='col-3 px-0 ml-5 mr-5' onMouseOver={handleMouseOver3} onMouseOut={handleMouseOut3}>
-                    <a href="" download className="footer__anchor">
+                    <Link to="/pdf">
                         <div className={hover3 ? 'iconsCols iconsCols__hover' : 'iconsCols iconsCols__static'}>
                             <AccountCircleIcon className={hover3 ? 'iconsMaterialUICV iconsMaterialUICV__hover' : 'iconsMaterialUICV iconsMaterialUICV__static'} style={{ fontSize: 50 }} />
                             <p className={hover3 ? 'iconParagraph iconParagraph__hover' : 'iconParagraph iconParagraph__static'}>CV</p>
                         </div>
-                    </a>
+                    </Link>
                 </div>                
             </div>
         </div>
