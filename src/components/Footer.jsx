@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './styles/Footer.css';
 import PeopleIcon from '@material-ui/icons/People';
-import MailIcon from '@material-ui/icons/Mail';
+import GitHubIcon from '@material-ui/icons/GitHub';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
 const Footer = () => {
@@ -36,7 +36,7 @@ const Footer = () => {
         <div className='container-fluid'>
             <div className='row rowFooter'>
                 <div className='col-3 px-0 mr-5 ml-5' onMouseOver={handleMouseOver1} onMouseOut={handleMouseOut1}>
-                    <a href="https://www.linkedin.com/in/alejo-vera/" className="footer__anchor">
+                    <a href="https://www.linkedin.com/in/alejo-vera/" target="_blank" className="footer__anchor">
                         <div className={hover1 ? 'iconsCols iconsCols__hover' : 'iconsCols iconsCols__static'}>
                             <PeopleIcon className={hover1 ? 'iconsMaterialUIGroup iconsMaterialUIGroup__hover' : 'iconsMaterialUIGroup iconsMaterialUIGroup__static'} style={{ fontSize: 50 }} />
                             <p className={hover1 ? 'iconParagraph iconParagraph__hover' : 'iconParagraph iconParagraph__static'}>LinkedIn</p>
@@ -45,10 +45,12 @@ const Footer = () => {
                 </div>
 
                 <div className='col-3 px-0 ml-5 mr-5' onMouseOver={handleMouseOver2} onMouseOut={handleMouseOut2}>
-                    <div className={hover2 ? 'iconsCols iconsCols__hover' : 'iconsCols iconsCols__static'}>
-                        <MailIcon className={hover2 ? 'iconsMaterialUIMail iconsMaterialUIMail__hover' : 'iconsMaterialUIMail iconsMaterialUIMail__static'} style={{ fontSize: 50 }} />
-                        <p className={hover2 ? 'iconParagraph iconParagraph__hover' : 'iconParagraph iconParagraph__static'}>Mail</p>
-                    </div>
+                    <a href="https://github.com/alejovera" target="_blank" className="footer__anchor">
+                        <div className={hover2 ? 'iconsCols iconsCols__hover' : 'iconsCols iconsCols__static'}>
+                            <GitHubIcon className={hover2 ? 'iconsMaterialUIMail iconsMaterialUIMail__hover' : 'iconsMaterialUIMail iconsMaterialUIMail__static'} style={{ fontSize: 50 }} />
+                            <p className={hover2 ? 'iconParagraph iconParagraph__hover' : 'iconParagraph iconParagraph__static'}>GitHub</p>
+                        </div>
+                    </a>
                 </div>
                 <div className='col-3 px-0 ml-5 mr-5' onMouseOver={handleMouseOver3} onMouseOut={handleMouseOut3}>
                     <Link to="/pdf">

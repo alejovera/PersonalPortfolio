@@ -46,7 +46,7 @@ const AboutMe = () =>{
                             <div className="progress-bar bar-3 bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">JS y React</div>
                         </div>
                         <div className="progress mb-2">
-                            <div className="progress-bar bar-4 bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Redux</div>
+                            <div className="progress-bar bar-4 bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Responsive Design</div>
                         </div> 
                     </div>
              </div> 
