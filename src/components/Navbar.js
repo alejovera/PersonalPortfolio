@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles/Navbar.css';
+
 class Navbar extends React.Component {
   render(){
     return(
@@ -19,7 +21,9 @@ class Navbar extends React.Component {
             <li className="nav-item pr-2">
               <a className="nav-link" href="#portfolio">Proyectos</a>
             </li>
-            <button className="btn btn-outline-warning my-sm-0 mr-2">Contactame</button>
+            <a href="#contact" className="nav-button">
+              <button className="btn btn-outline-warning my-sm-0 mr-2">Contactame</button>
+            </a>
           </ul>
         </div>
       </nav>

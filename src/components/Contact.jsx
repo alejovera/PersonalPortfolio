@@ -43,7 +43,7 @@ const Contact = () => {
     
     return(
         <>
-            <h3 className='contactTitle'>Contáctame</h3>
+            <h3 className='contactTitle' id="contact">Contáctame</h3>
             <form className='needs-validation contact-form' onSubmit={handleSubmit} noValidate>
                 <div className='form-row'>
                     <div className='name-row mb-2'>

@@ -23,6 +23,10 @@
   color: #ffc107;
   font-weight: 600;
 }
+.nav-button {
+  text-decoration: none;
+  list-style: none;
+}
 /* .total-bar{
   display: flex;
   align-items: flex-end;

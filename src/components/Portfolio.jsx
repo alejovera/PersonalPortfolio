@@ -15,12 +15,12 @@ const Portfolio = () => {
 
     
     return(
-        <div className='container projects_container' id="portfolio"> 
+        <div className='container projects_container'> 
             <div className='row row__card'>    
-                <div className='col-4 column__card'>
+                <div className='col-4 column__card' id="portfolio">
                     <PortfolioItem
                         title="Este mismo Portafolio" 
-                        description="Creado con React JS y CSS, puedo mostrar todos mis trabajos realizados hasta la actualidad"
+                        description="Creado con React JS y CSS, puedo mostrar todos mis trabajos realizados hasta la actualidad. Las imágenes que aparecen en los proyectos representan solo una parte de la totalidad. Para ver a fondo cada proyecto vea la versión Live Demo a través del botón de Ver Página Web."
                     />
                 </div>
                 <div className='col-4'>
