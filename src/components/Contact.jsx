@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import { db } from '../firebase';
-import { Alert, AlertTitle } from '@material-ui/lab';
 import './styles/Contact.css';
 
 const Contact = () => {
@@ -34,8 +33,8 @@ const Contact = () => {
                 message: message,
             })
             .then(
-                alert('Formulario enviado')
-            )
+                console.log(name)
+            ).catch((err) => console.log(err))
         setName('')
         setEmail('')
         setMessage('')

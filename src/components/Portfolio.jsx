@@ -20,7 +20,7 @@ const Portfolio = () => {
                 <div className='col-4 column__card' id="portfolio">
                     <PortfolioItem
                         title="Este mismo Portafolio" 
-                        description="Creado con React JS y CSS, puedo mostrar todos mis trabajos realizados hasta la actualidad. Las imágenes que aparecen en los proyectos representan solo una parte de la totalidad. Para ver a fondo cada proyecto vea la versión Live Demo a través del botón de Ver Página Web."
+                        description="Creado con React JS y CSS, puedo mostrar todos mis trabajos realizados hasta la actualidad. Las imágenes que aparecen en los proyectos representan solo una parte de la totalidad. Los proyectos fueron hosteados con Firebase por lo que son seguros de navegar."
                     />
                 </div>
                 <div className='col-4'>

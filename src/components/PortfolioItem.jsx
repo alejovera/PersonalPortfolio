@@ -29,7 +29,7 @@ const PortfolioItem = (props) =>{
                     }    
                     <p className="card-text">{props.description}</p>
                     {props.url ? (
-                        <a href={props.url} target="_blank" id="portfolio-btn" className={hover ? 'btn btn-especial' : 'btn btn-warning'}>Ver página Web</a>
+                        <a href={props.url} target="_blank" rel="noreferrer noopener" id="portfolio-btn" className={hover ? 'btn btn-especial' : 'btn btn-warning'}>Ver página Web</a>
                     ) :  
                         <p className="no_display">No boton</p>
                     }
