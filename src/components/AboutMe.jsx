@@ -13,8 +13,8 @@ const AboutMe = () =>{
 
     return(
         <div>
-            <div className='meContainer'>
-                <div className="row meRow" id="about" >
+            <div className='meContainer' id="about">
+                <div className="row meRow" >
                     <div data-aos="fade" className='titleCol col'> 
                         <h3 className="meTitle">ACERCA DE MI</h3>
                     </div>

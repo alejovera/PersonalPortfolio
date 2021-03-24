@@ -15,7 +15,7 @@ const Portfolio = () => {
 
     
     return(
-        <div className='container projects_container'> 
+        <div className='container projects_container' id="portfolio"> 
             <div className='row row__card'>    
                 <div className='col-4 column__card'>
                     <PortfolioItem

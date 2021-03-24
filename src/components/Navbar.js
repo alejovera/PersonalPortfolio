@@ -14,12 +14,12 @@ class Navbar extends React.Component {
               <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item pr-2">
-              <a className="nav-link" href="#">Sobre mi</a>
+              <a className="nav-link" href="#about">Sobre mi</a>
             </li>
             <li className="nav-item pr-2">
-              <a className="nav-link" href="#">Proyectos</a>
+              <a className="nav-link" href="#portfolio">Proyectos</a>
             </li>
-            <button className="btn btn-outline-warning my-sm-0 mr-2" type="submit">Contactame</button>
+            <button className="btn btn-outline-warning my-sm-0 mr-2">Contactame</button>
           </ul>
         </div>
       </nav>
