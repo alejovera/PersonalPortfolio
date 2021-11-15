@@ -1,10 +1,12 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable jsx-a11y/alt-text */
-/* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useState } from 'react';
 import './styles/Portfolio.css';
 import PortfolioItem from './PortfolioItem'; 
-import sampleImg from '../images/background.png';
+import landingMyTeam from '../images/layout_inner_pages.jpg';
+import landingTimeManagment from '../images/time_management.png';
+import landingArch from '../images/inner_pages.jpg';
+import landingSunny from '../images/landing_sunnyside.png';
+import landingNico from '../images/landing_nico.png';
+import planetsLanding from '../images/landing_planets.png'
 import tinderImage from '../images/tinder-clone-image.jpg';
 import streamingVideo from '../images/streamingVideo.jpg';
 import facebookImage from '../images/facebook-image.jpg';
@@ -41,7 +43,7 @@ const Portfolio = () => {
                 </div>
 
             </div>
-            <div className='row'>    
+            <div className='row row__card'>    
                 <div className='col-4'>
                     <PortfolioItem
                         title="Plataforma de Streaming"
@@ -67,6 +69,63 @@ const Portfolio = () => {
                     />
                 </div>
 
+            </div>
+            <div className='row'>
+                <div className='col-12'>
+                    <h2 className="box-2_description">My projects at the Intive React Training</h2>
+                </div>
+            </div>
+            <div className="row row__card">
+                <div className="col-4">
+                    <PortfolioItem
+                        title="Landing Arch"
+                        image={landingArch}
+                        url="https://tinder-clone-for-pets.web.app/"
+                        description="Implementamos React Router, desarrollo mobile, y maquetado en Css"
+                    />
+                </div>
+                <div className="col-4">
+                    <PortfolioItem
+                        title="Landing de Planetas"
+                        image={planetsLanding}
+                        url="https://team-venus.netlify.app/mercury"
+                        description="Trabajamos con equipos de 3 integrantes. Aplicamos React Router, recibimos data desde un Json, hicimos desarrollo atomizado, entre otros features"
+                    />
+                </div>
+                <div className="col-4">
+                    <PortfolioItem 
+                        title="Landing MyTeam"
+                        image={landingMyTeam}
+                        url="https://festive-joliot-af02c7.netlify.app/"
+                        description="Hicimos pair programming, una SPA con Js vainilla. Implementamos back4app, MailJs."
+                    />
+                </div>
+            </div>
+            <div className="row row__card">
+                <div className="col-4">
+                    <PortfolioItem
+                        title="Landing Time Managment"
+                        image={landingTimeManagment}
+                        url="https://jeremy-ttd.netlify.app/"
+                        description="Implementamos un archivo aparte con la data para simular un back, utilizamos Hooks (useState), un Layout, hicimos prop drilling"
+                    />
+                </div>
+                <div className="col-4">
+                    <PortfolioItem
+                        title="Landing Sunnyside"
+                        image={landingSunny}
+                        url="https://landing-sunnyside.netlify.app/"
+                        description="Utilice HTML y CSS puros, y es completamente mobile"
+                    />
+                </div>
+                <div className="col-4">
+                    <PortfolioItem
+                        title="Landing Nico"
+                        image={landingNico}
+                        url="https://landing-nico.netlify.app/"
+                        description="Web estatica utilizando HTML y CSS. Con esta Web aplicamos flex para el layout"
+                    />
+                </div>
             </div>
         </div>
     );

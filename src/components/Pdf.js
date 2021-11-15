@@ -5,7 +5,7 @@ import { storageRef } from '../firebase';
 function Pdf() {
     const [src, setSrc] = useState('')
 
-    var gsReference = storageRef.refFromURL("gs://portafolio-5c5e8.appspot.com/cv.pdf")
+    var gsReference = storageRef.refFromURL("gs://portafolio-5c5e8.appspot.com/CV__1.pdf")
     gsReference.getDownloadURL().then(function(url) {
         setSrc(url);
         console.log(url);
