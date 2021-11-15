@@ -80,7 +80,7 @@ const Portfolio = () => {
                     <PortfolioItem
                         title="Landing Arch"
                         image={landingArch}
-                        url="https://tinder-clone-for-pets.web.app/"
+                        url="https://landing-arch.netlify.app/"
                         description="Implementamos React Router, desarrollo mobile, y maquetado en Css"
                     />
                 </div>
