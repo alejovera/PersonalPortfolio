@@ -127,6 +127,21 @@ const Portfolio = () => {
                     />
                 </div>
             </div>
+            <div className="row justify-content-lg-center row__card">
+                <div className="col-4">
+                    <div className="list-group">
+                        <a target="blank" href="https://simple-card-design1.netlify.app" className="list-group-item list-group-item-warning">Simple card 1</a>
+                        <a target="blank" href="https://simple-card-design2.netlify.app" className="list-group-item list-group-item-warning">Simple card 2</a>
+                        <a target="blank" href="https://simple-card-design3.netlify.app" className="list-group-item list-group-item-warning">Simple card 3</a>
+                        <a target="blank" href="https://simple-card-design4.netlify.app" className="list-group-item list-group-item-warning">Simple card 4</a>
+                        <a target="blank" href="https://simple-card-design5.netlify.app" className="list-group-item list-group-item-warning">Simple card 5</a>
+                        <a target="blank" href="https://newspaper-style-card.netlify.app" className="list-group-item list-group-item-warning">Newspaper Card</a>
+                        <a target="blank" href="https://newspaper-style-web.netlify.app" className="list-group-item list-group-item-warning">Newspaper Card 2</a>
+                        <a target="blank" href="https://white-mountains-card.netlify.app" className="list-group-item list-group-item-warning">White Mountains Card</a>
+                        <a target="blank" href="https://simple-card-plant.netlify.app" className="list-group-item list-group-item-warning">Card plant</a>
+                    </div>
+                </div>    
+            </div>
         </div>
     );
 };
