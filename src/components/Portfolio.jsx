@@ -4,6 +4,7 @@ import PortfolioItem from './PortfolioItem';
 import landingMyTeam from '../images/layout_inner_pages.jpg';
 import landingTimeManagment from '../images/time_management.png';
 import landingArch from '../images/inner_pages.jpg';
+import intiveCuisine from '../images/intive_cuisine.png';
 import landingSunny from '../images/landing_sunnyside.png';
 import landingNico from '../images/landing_nico.png';
 import planetsLanding from '../images/landing_planets.png'
@@ -78,6 +79,14 @@ const Portfolio = () => {
             <div className="row row__card">
                 <div className="col-4">
                     <PortfolioItem
+                        title="Intive Cuisine"
+                        image={intiveCuisine}
+                        url="https://cuisine-app-express.herokuapp.com/"
+                        description="Implementacion de CRUD con React, uso de fetch y back con express"
+                    />
+                </div>
+                <div className="col-4">
+                    <PortfolioItem
                         title="Landing Arch"
                         image={landingArch}
                         url="https://landing-arch.netlify.app/"
@@ -92,6 +101,8 @@ const Portfolio = () => {
                         description="Trabajamos con equipos de 3 integrantes. Aplicamos React Router, recibimos data desde un Json, hicimos desarrollo atomizado, entre otros features"
                     />
                 </div>
+            </div>
+            <div className="row row__card">
                 <div className="col-4">
                     <PortfolioItem 
                         title="Landing MyTeam"
@@ -100,22 +111,12 @@ const Portfolio = () => {
                         description="Hicimos pair programming, una SPA con Js vainilla. Implementamos back4app, MailJs."
                     />
                 </div>
-            </div>
-            <div className="row row__card">
                 <div className="col-4">
                     <PortfolioItem
                         title="Landing Time Managment"
                         image={landingTimeManagment}
                         url="https://jeremy-ttd.netlify.app/"
                         description="Implementamos un archivo aparte con la data para simular un back, utilizamos Hooks (useState), un Layout, hicimos prop drilling"
-                    />
-                </div>
-                <div className="col-4">
-                    <PortfolioItem
-                        title="Landing Sunnyside"
-                        image={landingSunny}
-                        url="https://landing-sunnyside.netlify.app/"
-                        description="Utilice HTML y CSS puros, y es completamente mobile"
                     />
                 </div>
                 <div className="col-4">
